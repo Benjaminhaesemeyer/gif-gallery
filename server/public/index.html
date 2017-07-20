@@ -17,6 +17,11 @@
       </p>
       <!-- gifs sourced with a show function and when clicked they toggle visibility -->
       <img ng-src='{{post.gifUrl}}' ng-show='post.showGif' ng-click='gc.toggleGif($index)'/>
+      <!-- like button wont updated count when clicked -->
+        <button ng-click"count = count + 1" ng-init="count=0" >
+      <img src="images/like.svg" width="25px">
+      <p>{{count}}</p>
+      </button>
     </div>
     </div>
   </body>

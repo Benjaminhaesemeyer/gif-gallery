@@ -1,0 +1,24 @@
+{
+  "name": "gif-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benjaminhaesemeyer/gif-gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benjaminhaesemeyer/gif-gallery/issues"
+  },
+  "homepage": "https://github.com/Benjaminhaesemeyer/gif-gallery#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "express": "^4.15.3"
+  }
+}
